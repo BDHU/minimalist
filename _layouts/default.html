@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <title>Bodun Hu</title> -->
+
+{% seo %}
+    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <link rel="preload" href="{{ "/assets/img/logo.png?v=" | append: site.github.build_revision | relative_url }}" as="image">
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+    {% include head-custom.html %}
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="sidebar">
+        <header>
+          <img class="img-circle" rel="prefetch" src="{{ "/assets/img/logo.png?v=" | append: site.github.build_revision | relative_url }}">
+          <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
+          
+          <p>{{ site.description | default: site.github.project_tagline }}</p>
+
+          {% include sidebar.html %}
+
+        </header>
+
+        {% include links-mobile.html %}
+
+        <div class="sidebar-footer">
+          {%- include footer.html -%}
+        </div>
+      </div>
+      <section>
+
+      {{ content }}
+
+      </section>
+      <footer>
+        <p><small>Powered by <a href="https://jekyllrb.com/">Jekyll</a> & <a href="https://github.com/pages-themes/minimal">Minimal</a></small></p>
+      </footer>
+    </div>
+    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+  </body>
+</html>
