@@ -3,7 +3,9 @@ description: Minimalist is a theme powered by Jekyll. It is modified based on th
 show_downloads: false
 google_analytics: UA-108144808-1
 theme: jekyll-theme-minimalist
+remote_theme: BDHU/minimalist@v0.1.0
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
   - jemoji
+  - jekyll-remote-theme
