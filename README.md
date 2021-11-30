@@ -70,6 +70,8 @@ Enable favicon by putting a `favicon.ico` in the repo's root directory and add t
 favicon: true
 ```
 
+For further customizations such as the side bar, you can overwrite the theme's default template. Take a look at the `_includes/sidebar.html` file in this [repo](https://github.com/BDHU/bdhu.github.io) to see how the sidebar is customized.
+
 ### Stylesheet
 
 If you'd like to add your own custom styles:
