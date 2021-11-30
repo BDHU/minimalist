@@ -4,6 +4,8 @@
 {% include head-custom-google-analytics.html %}
 
 <!-- You can set your favicon here -->
-<!-- link rel="shortcut icon" type="image/x-icon" href="{{ '/favicon.ico' | relative_url }}" -->
+{% if site.favicon%}
+  <link rel="shortcut icon" type="image/x-icon" href="{{ '/favicon.ico' | relative_url }}">
+{% end %}
 
 <!-- end custom head snippets -->
