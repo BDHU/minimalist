@@ -8,25 +8,32 @@
 
 To use the Minimalist theme:
 
-1. Add the following to your site's `_config.yml`:
+1. Add the following line to your Gemfile
 
-    ```yml
-    remote_theme: BDHU/minimalist@v0.1.0
-    plugins:
-    - jekyll-remote-theme # add this line to the plugins list if you already have one
-    ```
+```ruby
+gem "jekyll-remote-theme"
+```
 
-2. Optionally, if you'd like to preview your site on your computer, add the following to your site's `Gemfile`:
+2. Add the following to your site's `_config.yml` to activate the plugin:
 
-    ```ruby
-    gem "github-pages", group: :jekyll_plugins
-    ```
+```yml
+plugins:
+  - jekyll-remote-theme
+```
+
+3. Add the following line to your `config.yml` to use the theme
+
+```yml
+remote_theme: BDHU/minimalist
+```
+
+An example `_config.yml` file can be found [here](https://github.com/BDHU/bdhu.github.io/blob/master/_config.yml). More info can be found at [Jekyll Remote Theme](https://github.com/benbalter/jekyll-remote-theme).
 
 ## Customizing
 
 ### Configuration variables
 
-Minimal will respect the following variables, if set in your site's `_config.yml`:
+Minimalist will respect the following variables, if set in your site's `_config.yml`:
 
 ```yml
 title: [The title of your site]
@@ -37,6 +44,24 @@ Additionally, you may choose to set the following optional variables:
 
 ```yml
 google_analytics: [Your Google Analytics tracking ID]
+```
+
+Choose light, dark, or automatically adjusting theme based on system theme:
+
+```yml
+color-scheme: auto/light/dark
+```
+
+Specify logo for the website:
+
+```yml
+logo: /assets/img/<logo_file>
+```
+
+Enable favicon by putting a `favicon.ico` in the repo's root directory and add the following line in `config.yml`:
+
+```yml
+favicon: true
 ```
 
 ### Stylesheet
@@ -66,6 +91,8 @@ If you'd like to change the theme's HTML layout:
 3. Create a file called `/_layouts/default.html` in your site
 4. Paste the default layout content copied in the first step
 5. Customize the layout as you'd like
+
+For example, this [repository](https://github.com/BDHU/bdhu.github.io) shows how customizations are made on the original theme.
 
 ### Customizing Google Analytics code
 
