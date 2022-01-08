@@ -70,7 +70,9 @@ Enable favicon by putting a `favicon.ico` in the repo's root directory and add t
 favicon: true
 ```
 
-For further customizations such as the side bar, you can overwrite the theme's default template. Take a look at the `_includes/sidebar.html` file in this [repo](https://github.com/BDHU/bdhu.github.io) to see how the sidebar is customized.
+### Customizing Sidebar
+
+To customize how the sidebar looks, go to [sidebar.html](https://github.com/BDHU/minimalist/blob/main/_includes/sidebar.html) in this repo and modify it however you like. The [link-mobile.html](https://github.com/BDHU/minimalist/blob/main/_includes/links-mobile.html) customizes the sidebar's look on mobile devices.
 
 ### Stylesheet
 
