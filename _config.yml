@@ -9,3 +9,20 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
   - jemoji
+
+sidebar:
+  - name: Google Scholar
+    icon: fa-solid fa-user-graduate
+    link: https://scholar.google.com/citations?user=zR6afi8AAAAJ
+  - name: GitHub
+    icon: fa-brands fa-github
+    link: https://github.com/BDHU
+  - name: Twitter
+    icon: fa-brands fa-twitter
+    link: https://twitter.com/BodunHu
+  - name: Blog
+    icon: fa-solid fa-pen
+    link: https://www.bodunhu.com/blog/
+  - name: Project Repository
+    icon: fa-solid fa-box-archive
+    link: https://github.com/BDHU/minimalist

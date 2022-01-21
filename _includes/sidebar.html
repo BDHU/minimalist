@@ -10,10 +10,8 @@
       }
     </style>
     <ul class="link">
-      <li><a href="https://scholar.google.com/citations?user=zR6afi8AAAAJ"><i class="fa-solid fa-user-graduate"></i> Google Scholar</a></li>
-      <li><a href="https://github.com/BDHU"><i class="fa-brands fa-github"></i> GitHub</a></li>
-      <li><a href="https://twitter.com/BodunHu"><i class="fa-brands fa-twitter"></i> Twitter</a></li>
-      <li><a href="https://www.bodunhu.com/blog/"><i class="fa-solid fa-pen"></i> Blog</a></li>
-      <li><a href="https://github.com/BDHU/minimalist"><i class="fa-solid fa-box-archive"></i> Project Repository</a></li>
+      {%- for platform in site.sidebar %}
+      <li><a href="{{ platform.link }}"><i class="{{ platform.icon }}"></i> {{ platform.name }}</a></li>
+      {%- endfor %}
     </ul>
   </div>

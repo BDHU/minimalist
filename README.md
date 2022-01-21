@@ -72,7 +72,20 @@ favicon: true
 
 ### Customizing Sidebar
 
-To customize how the sidebar looks, go to [sidebar.html](https://github.com/BDHU/minimalist/blob/main/_includes/sidebar.html) in this repo and modify it however you like. The [link-mobile.html](https://github.com/BDHU/minimalist/blob/main/_includes/links-mobile.html) customizes the sidebar's look on mobile devices.
+You can define a list of platforms that are linked from the sidebar in `_config.yml`:
+
+```yml
+sidebar:
+  - name: Google Scholar
+    icon: fa-solid fa-user-graduate
+    link: https://scholar.google.com/citations?user=zR6afi8AAAAJ
+  - name: GitHub
+    icon: fa-brands fa-github
+    link: https://github.com/BDHU
+  - ...
+```
+
+For further customization of the sidebar, go to [sidebar.html](https://github.com/BDHU/minimalist/blob/main/_includes/sidebar.html) in this repo and modify it however you like. The [link-mobile.html](https://github.com/BDHU/minimalist/blob/main/_includes/links-mobile.html) customizes the sidebar's look on mobile devices.
 
 ### Stylesheet
 
