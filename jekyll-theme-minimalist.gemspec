@@ -5,7 +5,7 @@ Gem::Specification.new do |s|
   s.version       = "0.1.0"
   s.license       = "CC0-1.0"
   s.authors       = ["Bodun Hu", "Steve Smith", "GitHub, Inc."]
-  s.email         = ["bodunhu@utexas.edu"]
+  s.email         = [""]
   s.homepage      = "https://github.com/BDHU/minimalist"
   s.summary       = "Minimalist is a Jekyll theme inspired by Minimal"
 
