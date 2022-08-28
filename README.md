@@ -1,6 +1,6 @@
 # The Minimalist theme
 
-*Minimalist is a Jekyll theme, inspired by the [Minimalist](https://github.com/BDHU/minimalist) theme. You can [preview the theme to see what it looks like](http://bdhu.github.io/minimalist), or even [use it today](#usage).*
+*Minimalist is a Jekyll theme, inspired by the [Minimal](https://github.com/pages-themes/minimal) theme from GitHub. You can [preview the theme to see what it looks like](http://bdhu.github.io/minimalist), or even [use it today](#usage).*
 
 ![Demo of Minimalist](https://raw.githubusercontent.com/BDHU/minimalist/main/minimalist.png)
 
