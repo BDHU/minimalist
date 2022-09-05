@@ -6,6 +6,16 @@
 
 ## Usage
 
+### Docker
+
+The simplest way is to use a Docker container. For Docker installation instructions, please refer to the offical Docker [docs](https://docs.docker.com/engine/install/). After successful installation, simply execute:
+
+```bash
+./deploy.sh
+```
+
+### Other Methods
+
 To use the Minimalist theme:
 
 1. Add the following line to your Gemfile
