@@ -203,7 +203,8 @@
   color: #008080;
 }
 .highlight .ow {
-  color: #000000;
+  // color: #000000;
+  color: var(--clr-code-bold-text);
   font-weight: bold;
 }
 .highlight .o {
