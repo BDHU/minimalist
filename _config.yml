@@ -1,9 +1,9 @@
 title: Yoshi
 logo: /assets/img/logo.png
-email: bogus at gmail dot com
+# email: bogus at gmail dot com
 description: Yoshi is a linguaphille and a data scientist.
 show_downloads: false
-google_analytics: G-ZLK2GHB056
+# google_analytics: G-ZLK2GHB056
 color-scheme: auto
 plugins:
   - jekyll-sitemap
