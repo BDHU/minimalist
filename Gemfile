@@ -2,6 +2,8 @@
 
 source "https://rubygems.org"
 
+gem "jekyll-remote-theme"
+
 gemspec
 # commenting below to remove dependency with "github-pages" 
 # gem "github-pages", group: :jekyll_plugins
