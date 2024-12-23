@@ -3,9 +3,7 @@ logo: /assets/img/logo.png
 email: meemee.alm20@gmail.com
 description: >
   I am a tech enthusiast with a strong interest in data analysis, machine learning, 
-  and natural language processing (NLP). I am proficient in Python and SQL, 
-  with hands-on experience using frameworks like Matplotlib, Streamlit, 
-  and currently learning advanced tools such as PyTorch.
+  and natural language processing (NLP). 
 show_downloads: false
 google_analytics: G-ZLK2GHB055
 color-scheme: auto
