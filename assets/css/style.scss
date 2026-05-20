@@ -1,13 +1,13 @@
 ---
 ---
 
-@import "jekyll-theme-minimalist";
+@use "jekyll-theme-minimalist";
 
 .img-circle {
-    -webkit-border-radius: 8px;
-    -moz-border-radius: 8px;
-    border-radius: 8px; 
-    margin-bottom: 10px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  margin-bottom: 10px;
 }
 
 .overlay {
@@ -48,21 +48,26 @@
   color: #333;
 }
 .popup .close:hover {
-  color: #06D85F;
+  color: #06d85f;
 }
 
 .popup .content {
   padding-right: 20px;
   max-height: 30%;
   overflow: auto;
-  font: 15px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font:
+    15px/1.5 "Noto Sans",
+    "Helvetica Neue",
+    Helvetica,
+    Arial,
+    sans-serif;
 }
 
-@media screen and (max-width: 700px){
-  .box{
+@media screen and (max-width: 700px) {
+  .box {
     width: 70%;
   }
-  .popup{
+  .popup {
     width: 70%;
   }
 }

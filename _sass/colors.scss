@@ -33,7 +33,7 @@ hvr -> hover
   --code-555555: #555555;
 }
 
-@mixin colors {  
+@mixin colors {
   // buttons
   --L-a-text-hover-change: 0.8;//the number that --L-a-text gets changed by when it is hovered eg a button has 30% luminosity when left it luminosity is then timesed by 0.8 when the button is hovered
   --clr-a-text: hsl(200, 100%, var(--L-a-text));
@@ -106,7 +106,7 @@ hvr -> hover
 --L-h2: 83%;
 --L-h-3-6: 76%;
 --L-text: 70%;
-// code blocks  
+// code blocks
 --L-code-text: 80%;
 --L-code-bg: 3%;
 --L-code-border: 5%;
@@ -122,3 +122,5 @@ hvr -> hover
 --L-small-in-a: 60%;
 --L-table-header-and-dt: 90%; //more on dt's https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_dd_test
 }
+
+@forward "colors";
